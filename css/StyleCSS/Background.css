@@ -1,0 +1,25 @@
+.Background {
+	background: url(../../Image/WallPaper-HomePage.png);
+	margin: 0px;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.Filter-light {
+	background-color:rgba(255,255,255,0.5);
+}
+
+.Filter-dark {
+	background-color:rgba(200,200,200,0.8);
+}
+
+.Paper{
+	background-color: rgb(255,255,255);
+	box-shadow:0px 0px 2px 1px rgb(150,150,150);
+	float: left;
+}
+
+.GuideLine {
+    width: 60px;
+    float: right;
+}

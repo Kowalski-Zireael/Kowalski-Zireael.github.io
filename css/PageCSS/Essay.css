@@ -1,0 +1,32 @@
+#Background {
+    width: 100%;
+    min-width: 910px;
+    overflow: auto;
+}
+
+#EssayFilter {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+
+#Blank-top {
+    height: 150px;
+}
+
+#MainPage {
+    width: 910px;
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+}
+
+#ArticlePage {
+    width: 840px;
+    float: left;
+}
+
+#Blank-bottom {
+    height: 40px;
+}

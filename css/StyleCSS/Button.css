@@ -1,0 +1,71 @@
+.Button-horizon {
+	float: left;
+	margin:25px;
+}
+
+.Button-img-30 {
+	height: 30px;
+	width: 30px;
+}
+
+.Button-img-60 {
+	height: 60px;
+	width: 60px;
+}
+
+.Pre {
+	width: 80px;
+	height: 80px;
+	background: url(../../Image/button/left.png) no-repeat;
+	background-size:100% auto;
+	position: fixed;
+	left: 0px;
+	top: 50%;
+    margin-top: -40px;
+}
+
+.Pre:hover {
+	width: 80px;
+	height: 80px;
+	background: url(../../Image/button/left-w.png) no-repeat rgba(100,100,100,0.8);
+	background-size:100% auto;
+	position: fixed;
+	left: 0px;
+	top: 50%;
+    margin-top: -40px;
+}
+
+.Next {
+	width: 80px;
+	height: 80px;
+	background: url(../../Image/button/right.png) no-repeat;
+	background-size:100% auto;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+    margin-top: -40px;
+}
+
+.Next:hover {
+	width: 80px;
+	height: 80px;
+	background: url(../../Image/button/right-w.png) no-repeat rgba(100,100,100,0.8);
+	background-size:100% auto;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+    margin-top: -40px;
+}
+
+.RoundButton {
+    border-radius: 30px;
+    border: hidden;
+    border-width: 2px;
+    background-color: white;
+    box-shadow:0px 0px 2px 1px rgb(150,150,150);
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 15px 15px 15px 15px;
+    line-height: 30px;
+}

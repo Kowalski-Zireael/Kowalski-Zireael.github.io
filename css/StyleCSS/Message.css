@@ -1,0 +1,89 @@
+.HeadTitle {
+	margin:auto;
+	font-family: "微软雅黑";
+	font-weight: 900;
+	font-size: 60;
+	text-align: center;
+	color:rgb(10, 10, 10);
+}
+
+.HeadText {
+	margin:auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 14;
+	text-align: center;
+    color:black; 
+}
+
+.CopyRight {
+	margin:auto;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 14;
+	text-align: center;
+	color:black;
+}
+
+.Article {
+    margin-left:120px;
+    margin-right:120px;
+}
+
+.Preview-word {
+    height: 140px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-width: 1.5px;
+    border-color: rgb(200, 200, 200);
+}
+
+.Top-word {
+    height: 30px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: solid;
+    border-width: 1.5px;
+	border-color: rgb(200, 200, 200);
+	text-align: right;
+	position: relative;
+	font-family: "微软雅黑";
+    font-weight: 300;
+    color:gray;
+    font-size: 12;
+    padding: 0px;
+    margin: 0px;
+	margin-top: 15px;
+	line-height: 40px;
+}
+
+h {
+    font-family: "微软雅黑";
+    font-weight: 700;
+    color:black;
+	font-size: 20;
+}
+
+p {
+    font-family: "微软雅黑";
+    font-weight: 400;
+    color:gray;
+    font-size: 14;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+p1 {
+    font-family: "幼圆";
+    font-weight: 400;
+    color:gray;
+    font-size: 13;
+    position: relative;
+    bottom: -30px;
+    padding: 0px;
+    margin: 0px;
+}
