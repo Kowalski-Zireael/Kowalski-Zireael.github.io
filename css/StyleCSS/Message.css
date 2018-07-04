@@ -60,6 +60,11 @@
 	line-height: 40px;
 }
 
+.Weather {
+    background-image: url(../../Image/weather/小暑.gif);
+    background-size: cover;
+}
+
 h {
     font-family: "微软雅黑";
     font-weight: 700;

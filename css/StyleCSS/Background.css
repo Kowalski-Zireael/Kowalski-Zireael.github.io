@@ -16,10 +16,48 @@
 .Paper{
 	background-color: rgb(255,255,255);
 	box-shadow:0px 0px 2px 1px rgb(150,150,150);
+}
+
+.LeftF {
 	float: left;
 }
 
 .GuideLine {
     width: 60px;
     float: right;
+}
+
+.List {
+	width: 160;
+	margin-right: 8px;
+}
+
+.Block {
+	width: 160px;
+	margin-bottom: 8px;
+}
+
+.H60 {
+	height: 60px;
+}
+
+.H100 {
+	height: 100px;
+}
+
+.H140 {
+	height: 140px;
+}
+
+.HeadPic {
+	border-radius: 50px;
+	border: solid;
+ 	border-width: 2.5px;
+	border-color: white;
+    background-color: orange;
+    box-shadow:0px 0px 2px 1px rgb(150,150,150);
+    width: 55px;
+	height: 55px;
+	margin-left: 130px;
+    padding: 20px;
 }
