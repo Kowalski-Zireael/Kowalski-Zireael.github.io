@@ -1,39 +1,92 @@
 .HeadTitle {
-	margin:auto;
-	font-family: "微软雅黑";
+    margin:auto;
+    border: solid;
+    border-color: rgb(30,83,167);
+    border-width:2px;
+    border-left: hidden;
+    border-right: hidden;
+    width:600px;
+    margin-bottom: 20px;
+    font-family: Ailerons;
 	font-weight: 900;
 	font-size: 60;
 	text-align: center;
-	color:rgb(10, 10, 10);
+	color:rgb(30, 83, 167);
+}
+
+.SubTitle {
+    border: solid;
+    border-color: rgb(30,83,167);
+    border-width:2px;
+    border-left: hidden;
+    border-right: hidden;
+    font-family: Ailerons;
+	font-weight: 900;
+	font-size: 60;
+	text-align: center;
+    color:rgb(30, 83, 167);
 }
 
 .HeadText {
-	margin:auto;
+    margin:auto;
 	padding-left: 100px;
 	padding-right: 100px;
-	font-family: "微软雅黑";
+	font-family: "consolas";
 	font-weight: 200;
+	font-size: 16;
+	text-align: center;
+    color:rgb(13, 18, 59); 
+}
+
+.ListMessage {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-family: "微软雅黑";
+	font-weight: 300;
 	font-size: 14;
 	text-align: center;
-    color:black; 
+    color:rgb(100, 100, 100);
+    padding:10px;
+}
+
+p2 {
+    font-family: "微软雅黑";
+	font-weight: 300;
+	font-size: 14;
+	text-align: right;
+    color:rgb(100, 100, 100);
+    width:inherit;
 }
 
 .CopyRight {
-	margin:auto;
+    border-top: solid;
+    border-width: 1px;
+    border-color: black;
+    padding-top: 10px;
+    width: 540px;
+    margin-left: -270px;
 	font-family: "微软雅黑";
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 14;
 	text-align: center;
-	color:black;
+    color:rgb(0, 0,0);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
 }
 
 .Article {
-    margin-left:120px;
-    margin-right:120px;
+    margin-left:80px;
+    margin-right:80px;
 }
 
 .Preview-word {
-    height: 140px;
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid;
@@ -49,27 +102,40 @@
     border-width: 1.5px;
 	border-color: rgb(200, 200, 200);
 	text-align: right;
-	position: relative;
-	font-family: "微软雅黑";
-    font-weight: 300;
-    color:gray;
-    font-size: 12;
-    padding: 0px;
-    margin: 0px;
 	margin-top: 15px;
 	line-height: 40px;
 }
 
-.Weather {
-    background-image: url(../../Image/weather/小暑.gif);
-    background-size: cover;
+.Name {
+    font-family: "Arial";
+    font-weight: 700;
+    color:black;
+	font-size: 24;
 }
 
 h {
     font-family: "微软雅黑";
     font-weight: 700;
-    color:black;
-	font-size: 20;
+    color:rgb(13, 32, 94);
+    font-size: 20;
+    text-align: left;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 14;
+    margin: 0px;
+}
+
+h2 {
+    font-family: "微软雅黑";
+    font-weight: 700;
+    font-size: 16;
+    line-height: 30px;
+    margin: 0px;
+    color:rgb(100,100,100);
 }
 
 p {
@@ -79,16 +145,25 @@ p {
     font-size: 14;
     padding: 0px;
     margin: 0px;
-    margin-top: 15px;
+    margin-top: 5px;
+    line-height:30px;
 }
 
-p1 {
-    font-family: "幼圆";
+.Tag {
+    font-family: "微软雅黑";
     font-weight: 400;
     color:gray;
-    font-size: 13;
-    position: relative;
-    bottom: -30px;
+    font-size: 15;
     padding: 0px;
     margin: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Flag {
+    font-family: "微软雅黑";
+    font-weight: 900;
+	font-size: 14;
+    color:rgb(30, 83, 167);
+    float:right;
 }

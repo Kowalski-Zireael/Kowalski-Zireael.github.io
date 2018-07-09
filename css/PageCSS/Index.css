@@ -5,14 +5,24 @@
 	min-height: 600px;
 }
 
+#BackgroundFilter {
+	width:inherit;
+	height:inherit;
+	z-index: 0;
+}
+
 #IndexFilter {
 	height: inherit;
+	width: 910px;
+	margin: auto;
+	z-index: 1;
 }
 
 #ButtonLine {
 	height: 100px;
 	margin: auto;
-	width: 440px;
+	width: 330px;
+	z-index: 3;
 }
 
 #Blank-top {
@@ -20,5 +30,5 @@
 }
 
 #Blank-bottom {
-	height: 35%;
+	height: 5%;
 }

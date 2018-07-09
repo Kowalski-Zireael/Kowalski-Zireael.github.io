@@ -4,17 +4,20 @@
     overflow: auto;
 }
 
-#EssayFilter {
-    position: absolute;
+#BackgroundFilter {
+    position: fixed;
     top: 0px;
     width: 100%;
     min-height: 100%;
 }
 
 #Blank-top {
-    height: 150px;
+    margin-left: 75px;
+    width: 350px;
+    height: 72px;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
-
 #MainPage {
     width: 910px;
     margin: auto;

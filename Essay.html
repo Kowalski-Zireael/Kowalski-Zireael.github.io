@@ -5,28 +5,45 @@
 		<link rel="stylesheet" type="text/css" href="css/StyleCSS/Button.css" />
 		<link rel="stylesheet" type="text/css" href="css/StyleCSS/Message.css" />
         <link rel="stylesheet" type="text/css" href="css/PageCSS/Essay.css" />
+        <style type="text/css"> 
+			@font-face { 
+				font-family: Ailerons; 
+				src: url('css/Ailerons-Typeface.otf');
+			} 
+		</style>
     </head>
     <body class = "Background" id = "Background">
-        <div class = "Filter-dark" id = "EssayFilter">
+        <div class = "Filter-light" id = "BackgroundFilter"></div>
             <!--
             <div class = "Pre" id = "EssayPre"></div>
             <div class = "Next" id = "EssayNext"></div>
             -->
-            <div id = "Blank-top"></div>
+            
             <div id = "MainPage">
+                <div class = "SubTitle" id = "Blank-top">
+                            WORDS LIST<div class = "Flag">精选</div>
+                </div>
+                <div id = "LeftLine">
+                    <div style = "height: 50px;"></div>
+                    <div class = "Paper">
+                        <div style = "height: 5px;"></div>
+                        <a href = "Essay.html" class = "Tag"><p>精选</p></a>
+                        <a href = "Essay/SB.html" class = "Tag"><p>随笔</p></a>
+                        <a href = "Essay/XS.html" class = "Tag"><p>学术</p></a>
+                        <a href = "Essay/SK.html" class = "Tag"><p>思考</p></a>
+                        <div style = "height: 8px;"></div>
+                    </div>
+                </div>
                 <div class = "Paper" id = "ArticlePage">
                     <div class = "Article" id = "Article">
                         <div class = "Top-word">
-                                Wish what I like can be your right.
                         </div>
                         <div class = "Preview-word">
-                            <a href = "Favorite/1.html" style = "text-decoration: none;"><h>总还有另一种说法</h></a>
-                            <p>
-                                胡言县的外环有个地方叫长矩街。当初胡言县城城区规划的时候，有人说这两道街明显构成一个长廊形，
-                                就叫十里长街吧，十里长街多阔气！有的人却不大乐意；这明显就是个矩形嘛，当然叫矩街喽，不以规
-                                矩难以方圆嘛，最后没办法搞了个民意投票...
+                            <a href = "Essay/SB/言之外.html" style = "text-decoration: none;" target="_blank"><h>言之外</h></a>
+                            <p sytle = "line-height: 22px;">
+                                    我记得第一次在申请个人主页的时候，会从曾经的日记或周记中搜刮，任何一点貌似有油水的文字都不会放过...
                             </p>
-                            <p1>文章 &emsp; 转载：萌芽杂志社 &emsp; 作者：汤斌 &emsp; 2018-7-4</p1>
+                            <p style = "line-height: 22px; font-family: 幼圆; font-size: 13px;" >Zireael &emsp; 2018-7-9 &emsp; 随笔</p>
                         </div>
                         <div id = "Blank-bottom"></div>
                     </div>
@@ -34,17 +51,12 @@
                 <div class = "GuideLine">
                     <div class = "RoundButton">
                         <a href = "index.html">
-                            <img class = "Button-img-30" src = "Image/button/home-blue.png"/>
+                            <img class = "Button-img-30" src = "Image/button/home.png"/>
                         </a>
                     </div>
                     <div class = "RoundButton">
-                        <a href = "Personal.html">
-                            <img class = "Button-img-30" src = "Image/button/personal.png"/>
-                        </a>
-                    </div>
-                    <div class = "RoundButton">
-                        <a href = "Code.html">
-                            <img class = "Button-img-30" src = "Image/button/code.png"/>
+                        <a href = "Time.html">
+                            <img class = "Button-img-30" src = "Image/button/time.png"/>
                         </a>
                     </div>
                     <div class = "RoundButton">
@@ -54,6 +66,5 @@
                     </div>
                 </div>
             </div>
-        </div>
     </body>
 </html>
