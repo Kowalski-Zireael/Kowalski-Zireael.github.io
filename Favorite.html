@@ -10,7 +10,9 @@
 				font-family: Ailerons; 
 				src: url('css/Ailerons-Typeface.otf');
 			} 
-		</style>
+        </style>
+        <script src="js/Date.js">
+        </script>
     </head>
     <body class = "Background" id = "Background">
         <div class = "Filter-light" id = "BackgroundFilter">
@@ -26,33 +28,59 @@
                     <div class = "List LeftF" id = "1">
                         <div class = "Block Paper">
                             <div style = "height:5px;"></div>
-                            <div class = "ListMessage" style = "font-weight: 700; color:rgb(30, 83, 167);">Kowalski-Zireael</div>
+                            <div class = "ListMessageF" style = "font-weight: 700; color:rgb(30, 83, 167);">Kowalski-Zireael</div>
                             <div style = "height:5px;"></div>
                         </div>
+                        <div style = "height:74.5px"></div>
                         <div class = "Block Paper">
                             <div style = "height:5px;"></div>
-                            <div class = "ListMessage">
-                                <a href = "Favorite/总还有另一种说话.html" style = "text-decoration:none;" target="_blank">
+                            <div class = "ListMessageF">
+                                <a href = "Favorite/总还有另一种说法.html" style = "text-decoration:none;" target="_blank">
                                     <h style = "font-size: 14; text-align: left;">总还有另一种说法</h>
                                 </a>
-                                <p style = "font-size: 12; text-align: right;">转载文章 小说</p>
+                                <p style = "font-size: 12; text-align: right;">汤斌 转载文章 小说</p>
                             </div>
                             <div style = "height:5px;"></div>
                         </div>
                     </div>    
                     <div class = "List LeftF" id = "2">
-                        <div class = "Block Paper Weather" style ="height: 240px;">
+                        <div class = "Block Paper" id = "Weather" style ="height: 240px;">
+                            <script>
+                                WeatherChoose();                             
+                            </script>
                         </div>
                     </div>
-                    <div class = "List LeftF" id = "3">
-                        <div class = "Block Paper" id = "4">
+                    <div class = "List LeftF" id = "3" style = "margin-right:10px">
+                        <div class = "GuideLine">
+                            <div class = "RoundButton">
+                                <a href = "index.html">
+                                    <img class = "Button-img-30" src = "Image/button/home.png"/>
+                                </a>
+                            </div>
+                            <div class = "RoundButton">
+                                <a href = "Essay.html">
+                                    <img class = "Button-img-30" src = "Image/button/essay.png"/>
+                                </a>
+                            </div>
+                            <div class = "RoundButton">
+                                <a href = "Time.html">
+                                    <img class = "Button-img-30" src = "Image/button/time.png"/>
+                                </a>
+                            </div>        
                         </div>
                     </div> 
                     <div class = "List LeftF" id = "4">
                         <div class = "Block Paper">
                             <div style = "height:5px;"></div>
                             <a href = "https://github.com/Kowalski-Zireael" style = "text-decoration: none;" target = "_blank">
-                                <div class = "ListMessage" style = "text-decoration: none;font-weight: 700; color:rgb(30, 83, 167);">My Github</div>
+                                <div class = "ListMessageF" style = "text-decoration: none;font-weight: 700; color:rgb(30, 83, 167);">My Github</div>
+                            </a>
+                            <div style = "height:5px;"></div>
+                        </div>
+                        <div class = "Block Paper">
+                            <div style = "height:5px;"></div>
+                            <a href = "https://www.sustech.edu.cn" style = "text-decoration: none;" target = "_blank">
+                                <div class = "ListMessageF" style = "text-decoration: none;font-weight: 700; color:rgb(30, 83, 167);">南方科技大学</div>
                             </a>
                             <div style = "height:5px;"></div>
                         </div>
@@ -62,28 +90,24 @@
                         <div class = "Block Paper">
                             <div style = "height:5px;"></div>
                             <a href = "https://www.bilibili.com/video/av24325548" style = "text-decoration: none;" target = "_blank">
-                                <div class = "ListMessage" style = "text-decoration: none;font-weight: 400; color:rgb(30, 83, 167);">3Blue1Brown</br>微积分的本质</div>
+                                <div class = "ListMessageF" style = "text-decoration: none;font-weight: 400; color:rgb(30, 83, 167);">3Blue1Brown</br>微积分的本质</div>
+                            </a>
+                            <a href = "https://www.bilibili.com/video/av24325548" style = "text-decoration: none;" target = "_blank">
+                                <div class = "ListMessage" style = "text-decoration: none;font-weight: 400; color:rgb(30, 83, 167);">深度学习</div>
+                            </a>
+                            <a href = "https://www.bilibili.com/video/av6731067" style = "text-decoration: none;" target = "_blank">
+                                <div class = "ListMessage" style = "text-decoration: none;font-weight: 400; color:rgb(30, 83, 167);">线性代数的本质</div>
+                            </a>
+                            <div style = "height:5px;"></div>
+                        </div>
+                        <div class = "Block Paper">
+                            <div style = "height:5px;"></div>
+                            <a href = "https://www.wallpaperup.com/" style = "text-decoration: none;" target = "_blank">
+                                <div class = "ListMessageF" style = "text-decoration: none;font-weight: 400; color:rgb(30, 83, 167);">Wall Paper</br>壁纸</div>
                             </a>
                             <div style = "height:5px;"></div>
                         </div>
                     </div>
-                </div>
-                <div class = "GuideLine">
-                    <div class = "RoundButton">
-                        <a href = "index.html">
-                            <img class = "Button-img-30" src = "Image/button/home.png"/>
-                        </a>
-                    </div>
-                    <div class = "RoundButton">
-                        <a href = "Essay.html">
-                            <img class = "Button-img-30" src = "Image/button/essay.png"/>
-                        </a>
-                    </div>
-                    <div class = "RoundButton">
-                        <a href = "Time.html">
-                            <img class = "Button-img-30" src = "Image/button/time.png"/>
-                        </a>
-                    </div>        
                 </div>
             </div>
         </div>

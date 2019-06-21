@@ -38,8 +38,24 @@
     color:rgb(13, 18, 59); 
 }
 
-.ListMessage {
+.ListMessageF {
     border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-family: "微软雅黑";
+	font-weight: 300;
+	font-size: 14;
+	text-align: center;
+    color:rgb(100, 100, 100);
+    padding:10px;
+}
+
+.ListMessage {
     border-bottom: solid;
     border-width: 1px;
     border-color: rgb(200, 200, 200);

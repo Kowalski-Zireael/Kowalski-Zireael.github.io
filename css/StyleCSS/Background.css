@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+	display: none;
+}
+
 .Background {
 	background: url(../../Image/Wall.jpg);
 	margin: 0px;
@@ -5,10 +9,6 @@
 	background-attachment:fixed;
 }
 
-.Weather {
-	background: url(../../Image/weather/大暑.gif);
-	background-size: cover;
-}
 
 .Filter-light {
 	background-color:rgba(255,255,255,0.3);
